@@ -1,0 +1,39 @@
+body, html {
+    height: fit-content;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1%;
+    border: 0px solid;  
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(100px);
+}
+
+html{
+    background-image: url(img/bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+    
+body{
+    backdrop-filter: blur(100px);
+    color: black;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+
+.form-text.text-danger.text-start {
+    display: block;
+    text-align: left;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&display=swap');
